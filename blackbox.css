@@ -1,0 +1,20 @@
+
+#box {
+    margin: calc(7.142vmin - 5px) auto;
+    border-spacing: 10px;
+}
+
+#box tr:first-child td,
+#box tr:last-child td,
+#box tr td:first-child,
+#box tr td:last-child {
+
+    border-color: #aaa;
+}
+
+#box td {
+    border: solid 2px black;
+    height: calc(14.28vmin - 10px);
+    width: calc(14.28vmin - 10px);
+    box-sizing: border-box;
+}
